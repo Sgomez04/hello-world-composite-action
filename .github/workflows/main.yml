@@ -9,7 +9,7 @@ jobs:
       - uses: actions/checkout@v3
 
       - name: Probando timeout
-        run: sleep 60
+        run: timeout 1
         timeout-minutes: 10
 
       - name:  Probando actions
